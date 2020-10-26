@@ -29,6 +29,15 @@ public class Rectangle {
         return x==v.x && y==v.y;
 
     }
+    void printRectangleKind(){
+        if(x==y){
+            System.out.println("Это Квадрат");
+        }else if(x<y || y<x){
+            System.out.println("Это Прямоугольник");
+        }else{
+            System.out.println("NONE");
+        }
+    }
 
 
 }

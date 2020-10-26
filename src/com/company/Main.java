@@ -17,6 +17,10 @@ public class Main {
         System.out.println(cube1.isTheSameRectangle(cube3));
         System.out.println(cube2.isTheSameRectangle(cube3));
 
+        cube1.printRectangleKind();
+        cube2.printRectangleKind();
+        cube3.printRectangleKind();
+
 
     }
 }
